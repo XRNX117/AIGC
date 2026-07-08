@@ -1,0 +1,5 @@
+{
+    "version": "1.4.10",
+    "release_date": "2026-06-26",
+    "release_notes": "text2image、image2image 支持通过 generate_num 参数一次生成 1-10 张图片；\n新增对 seedance2.0_vip 4k 分辨率的支持；\n修复图片超清任务结果查询失败的问题；\n修复 image2video 在部分情况下生成失败的问题；调整视频模型名称，将原本的 3.x 模型名改为 Seedance 1.x 模型名称，与Web端保持命名一致。\n更新命令：curl -fsSL https://jimeng.jianying.com/cli | bash"
+}

@@ -1,0 +1,6 @@
+请使用浏览器完成 OAuth Device Flow 登录。
+verification_uri: https://jimeng.jianying.com/ai-tool/cli-auth?verification_uri=https%3A%2F%2Fjimeng.jianying.com%2Fpassport%2Fopen%2Fscan_user_code%2F%3Fuser_code%3Da18da883557ed5128a8e7dfb54322e84
+user_code: a18da883557ed5128a8e7dfb54322e84
+device_code: 1f7cdf121c940d404522b5bf0b4fcf02
+poll_interval: 1s
+expires_at: 2026-07-08T13:47:36+08:00

@@ -1,0 +1,14 @@
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment & secrets
+.env
+DREAMINA_SESSION
+
+# OS junk
+Thumbs.db
+Desktop.ini

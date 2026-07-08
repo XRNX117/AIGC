@@ -1,0 +1,94 @@
+{
+  "project": "Neon_Ruins",
+  "title": "Neon Ruins",
+  "fps": 24,
+  "duration": 15,
+  "resolution": "1080x1920 (9:16)",
+  "clips": [
+    {
+      "shot_id": 1,
+      "name": "Wasteland Cityscape",
+      "duration": 3.0,
+      "start": 0.0,
+      "prompt": "cyberpunk wasteland city skyline at dusk, ruined skyscrapers half-buried in sand, flickering neon signs reflecting on rusted metal, volumetric god rays through dust clouds, distant dome megastructure, blade runner aesthetic, hyperdetailed",
+      "camera": "Wide push-in, slow forward drone movement",
+      "transition": "Hard cut (sand particles)",
+      "color_grading": "Teal & Orange, faded film look",
+      "sfx": "Deep wind, distant metal creaking"
+    },
+    {
+      "shot_id": 2,
+      "name": "Survivor Close-up",
+      "duration": 3.0,
+      "start": 3.0,
+      "prompt": "cybernetic hand with glowing exoskeleton glove reaching into sand, picking up cyan luminous data chip, tiny electric sparks at fingertips, shallow depth of field, rusted metal background, cinematic lighting",
+      "camera": "Medium close-up, focus pull from sand to chip, slight handheld shake",
+      "transition": "RGB Glitch transition",
+      "color_grading": "Cyan chip as key light, shadows tinted purple",
+      "sfx": "Electric crackle, sand friction, low hum"
+    },
+    {
+      "shot_id": 3,
+      "name": "Holographic Triptych",
+      "duration": 3.0,
+      "start": 6.0,
+      "prompt": "triptych of three quick cuts: cracked CRT monitor with neon japanese advertisement, translucent blue holographic geisha projection on crumbling concrete wall, underground cables sparking electric arcs, glitch aesthetic",
+      "camera": "Fast cuts: CRT screen, hologram, cables (3x1s each)",
+      "transition": "Flash white + sand particle transition (0.3s)",
+      "color_grading": "Strong glitch/chromatic aberration effect",
+      "sfx": "CRT buzz, data glitch noise, spark explosions"
+    },
+    {
+      "shot_id": 4,
+      "name": "Megastructure Reveal",
+      "duration": 3.0,
+      "start": 9.0,
+      "prompt": "aerial drone view rising above cyber wasteland revealing massive biomechanical structure buried beneath ruined city, glowing orange veins pulsing through metal skeleton, sand blowing away, epic cinematic scale",
+      "camera": "Aerial rising, slight downward tilt, epic reveal",
+      "transition": "Fade to Black (0.5s)",
+      "color_grading": "Orange veins as highlights, deep brown-purple shadows",
+      "sfx": "Subwoofer rumble, mechanical heartbeat, sandstorm"
+    },
+    {
+      "shot_id": 5,
+      "name": "Neon Pulse Finale",
+      "duration": 3.0,
+      "start": 12.0,
+      "prompt": "close-up of glowing cyan data chip being inserted into rusty terminal port, massive energy surge building up, cyan shockwave expanding in slow motion, cyberpunk, symmetrical composition, dark background",
+      "camera": "Static, shockwave expands from center",
+      "transition": "End",
+      "color_grading": "Shockwave as sole light source, full black background",
+      "sfx": "Energy buildup pitch rise, shockwave boom, deep bass sustain"
+    }
+  ],
+  "global_color_grading": {
+    "lut": "Teal & Orange, 70% intensity",
+    "fade": "Black lift 5%, white reduce 5%",
+    "grain": "8% intensity, size 1.5",
+    "vignette": "20% intensity, 50% feather",
+    "chromatic_aberration": "Red/cyan offset 1px"
+  },
+  "audio": {
+    "bgm_style": "Dark Ambient / Industrial, 60-80 BPM, C minor",
+    "bgm_level": "-12dB",
+    "sfx_level": "-6dB peak",
+    "master_limiter": "-1dB ceiling",
+    "narration": "Optional: deep male voice, gritty whisper"
+  },
+  "title_animation": {
+    "text": "Neon Ruins",
+    "font": "ZenKurenaido / Source Han Sans Heavy",
+    "color": "#00E5FF",
+    "glow": "#B847E6",
+    "animation": "Typewriter effect (0.8s), flicker 3Hz",
+    "time": "13.5s to 15.0s"
+  },
+  "export": {
+    "codec": "H.264",
+    "resolution": "1080x1920",
+    "fps": 24,
+    "bitrate": "15 Mbps (VBR 2-pass)",
+    "audio_codec": "AAC 320kbps 48kHz",
+    "container": "MP4"
+  }
+}
